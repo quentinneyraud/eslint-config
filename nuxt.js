@@ -49,7 +49,8 @@ const config = {
       {
         caseSensitive: true
       }
-    ]
+    ],
+    'prefer-template': 0
   }
 }
 
