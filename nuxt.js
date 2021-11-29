@@ -31,7 +31,8 @@ const config = {
     }],
     'template-curly-spacing': 0,
     indent: ['error', 2, {
-      ignoredNodes: ['TemplateLiteral']
+      ignoredNodes: ['TemplateLiteral'],
+      SwitchCase: 1
     }],
     'vue/custom-event-name-casing': 0,
     'vue/no-lone-template': 0,
