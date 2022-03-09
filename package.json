@@ -45,7 +45,6 @@
   "peerDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@nuxtjs/eslint-config": "^8.0.0",
-    "docsify-cli": "^4.4.3",
     "eslint": "^8.10.0",
     "eslint-import-resolver-nuxt": "^1.0.1",
     "eslint-plugin-import": "^2.23.4",
