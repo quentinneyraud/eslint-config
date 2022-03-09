@@ -38,7 +38,8 @@
     "lint:vanilla:prod": "NODE_ENV=production eslint examples/vanilla",
     "lint:nuxt": "eslint examples/nuxt/index.vue",
     "lint:nuxt:prod": "NODE_ENV=production eslint examples/nuxt",
-    "prepublish": ""
+    "lint": "eslint ./nuxt.js ./vanilla.js",
+    "prepublishOnly": "npm run lint"
   },
   "dependencies": {},
   "peerDependencies": {
