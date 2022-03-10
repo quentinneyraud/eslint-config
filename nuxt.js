@@ -31,7 +31,8 @@ const config = {
     'vue/multiline-html-element-content-newline': ['error', {
       allowEmptyLines: true
     }],
-    'vue/multi-word-component-names': 0
+    'vue/multi-word-component-names': 0,
+    'vue/comma-dangle': ['error', 'never']
   }
 }
 
