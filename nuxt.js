@@ -30,7 +30,8 @@ const config = {
     'vue/no-lone-template': 0,
     'vue/multiline-html-element-content-newline': ['error', {
       allowEmptyLines: true
-    }]
+    }],
+    'vue/multi-word-component-names': 0
   }
 }
 
