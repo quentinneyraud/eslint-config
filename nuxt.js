@@ -32,7 +32,16 @@ const config = {
       allowEmptyLines: true
     }],
     'vue/multi-word-component-names': 0,
-    'vue/comma-dangle': ['error', 'never']
+    'vue/comma-dangle': ['error', 'never'],
+    'vue/max-attributes-per-line': ['error', {
+      singleline: 1
+    }],
+    'vue/first-attribute-linebreak': ['error', {
+      singleline: 'beside',
+      multiline: 'below'
+    }],
+    'vue/object-curly-spacing': [2, 'always'],
+    'vue/require-prop-types': 0,
   }
 }
 

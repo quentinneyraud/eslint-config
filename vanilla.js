@@ -38,6 +38,7 @@ module.exports = {
         caseSensitive: true
       }],
     'no-return-assign': 0,
-    'multiline-ternary': ['error', 'always-multiline']
+    'multiline-ternary': ['error', 'always-multiline'],
+    'prefer-template': 'error'
   }
 }
