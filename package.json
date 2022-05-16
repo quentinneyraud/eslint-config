@@ -1,6 +1,6 @@
 {
   "name": "@qneyraud/eslint-config",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "license": "ISC",
   "description": "Personal eslint config for dev, prod, vue dev and vue prod projects",
   "keywords": [
