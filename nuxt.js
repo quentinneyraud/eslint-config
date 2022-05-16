@@ -41,7 +41,7 @@ const config = {
       multiline: 'below'
     }],
     'vue/object-curly-spacing': [2, 'always'],
-    'vue/require-prop-types': 0,
+    'vue/require-prop-types': 0
   }
 }
 
