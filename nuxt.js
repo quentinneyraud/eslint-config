@@ -1,8 +1,5 @@
 const vanillaRules = require('./vanilla.js').rules
 
-// const isProd = process.env.NODE_ENV === 'production'
-// const warnToErrorLevel = isProd ? 'error' : 'warn'
-
 const config = {
   root: true,
   env: {

@@ -1,5 +1,5 @@
-const isProd = process.env.NODE_ENV === 'production'
-const warnToErrorLevel = isProd ? 'error' : 'warn'
+const isDev = process.env.NODE_ENV === 'development'
+const warnToErrorLevel = isDev ? 'warn' : 'error'
 
 module.exports = {
   root: true,
@@ -39,6 +39,17 @@ module.exports = {
       }],
     'no-return-assign': 0,
     'multiline-ternary': ['error', 'always-multiline'],
-    'prefer-template': 'error'
+    'prefer-template': 'error',
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxEOF: 0,
+        maxBOF: 0
+      }
+    ],
+    'import/newline-after-import': ['error', {
+      count: 1
+    }]
   }
 }
