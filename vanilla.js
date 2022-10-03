@@ -23,7 +23,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'template-curly-spacing': 0,
     indent: ['error', 2, {
-      ignoredNodes: ['TemplateLiteral'],
+      ignoredNodes: ['TemplateLiteral', 'TemplateLiteral *'],
       SwitchCase: 1
     }],
     'no-console': [warnToErrorLevel],
