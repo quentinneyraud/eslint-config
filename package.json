@@ -44,7 +44,7 @@
   "dependencies": {},
   "peerDependencies": {
     "@babel/eslint-parser": "^7.19.1",
-    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-config": "^12.0.0",
     "eslint": "^8.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-import-resolver-nuxt": "^1.0.1",
