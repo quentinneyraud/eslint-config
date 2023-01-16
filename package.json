@@ -1,6 +1,6 @@
 {
   "name": "@qneyraud/eslint-config",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "license": "ISC",
   "description": "Personal eslint config for vanilla and Nuxt projects",
   "keywords": [
