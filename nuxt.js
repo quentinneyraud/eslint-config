@@ -38,7 +38,8 @@ const config = {
     }],
     'vue/object-curly-spacing': [2, 'always'],
     'vue/require-prop-types': 0,
-    'vue/multi-word-component-names': 0
+    'vue/multi-word-component-names': 0,
+    'vue/no-v-text-v-html-on-component': 0
   }
 }
 
