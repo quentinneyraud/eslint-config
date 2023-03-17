@@ -21,7 +21,7 @@ module.exports = {
       varsIgnorePattern: '^_'
     }],
     'arrow-parens': ['error', 'as-needed'],
-    'template-curly-spacing': 0,
+    'template-curly-spacing': ['error', 'never'],
     indent: ['error', 2, {
       ignoredNodes: ['TemplateLiteral', 'TemplateLiteral *'],
       SwitchCase: 1
@@ -37,7 +37,7 @@ module.exports = {
       {
         caseSensitive: true
       }],
-    'no-return-assign': 0,
+    'no-return-assign': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
     'prefer-template': 'error',
     'no-multiple-empty-lines': [
@@ -50,6 +50,21 @@ module.exports = {
     ],
     'import/newline-after-import': ['error', {
       count: 1
-    }]
+    }],
+    'array-element-newline': ['error', 'consistent'],
+    'array-bracket-newline': 'error',
+    'no-useless-concat': 'error',
+    'object-property-newline': [
+      'error', {
+        allowAllPropertiesOnSameLine: true
+      }
+    ],
+    'object-curly-newline': [
+      'error',
+      {
+        multiline: true,
+        consistent: true
+      }
+    ]
   }
 }
